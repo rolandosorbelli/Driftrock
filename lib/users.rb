@@ -8,11 +8,11 @@ class Users
 	end
 
 	def users_data
-     getData.users_data
+     getData.get_users_data
    	end
 
    def purchases_data
-     getData.purchases_data
+     getData.get_purchases_data
    end
 
 	def user_id(email, users_data)

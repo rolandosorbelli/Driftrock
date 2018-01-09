@@ -19,8 +19,8 @@ class Controller
 	end
 
 	def total_spend(email)
-    user_data = getData.users_data
-    purchase_data = getData.purchases_data
+    user_data = getData.get_users_data
+    purchase_data = getData.get_purchases_data
     user_id = user.user_id(email, user_data)
     puts user.calculate_total_spend(user_id, purchase_data)
   end
