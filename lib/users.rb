@@ -3,7 +3,7 @@ require './lib/get_data.rb'
 class Users
   attr_reader :get_data
 
-  def initialize(get_data = Get_data.new)
+  def initialize(get_data = GetData.new)
     @get_data = get_data
   end
 

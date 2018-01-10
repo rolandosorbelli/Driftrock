@@ -4,7 +4,7 @@ require './lib/users.rb'
 class Controller
   attr_reader :get_data, :user
 
-  def initialize(get_data = Get_data.new, user = Users.new)
+  def initialize(get_data = GetData.new, user = Users.new)
     @get_data = get_data
     @user = user
   end

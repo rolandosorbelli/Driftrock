@@ -1,6 +1,6 @@
 require './lib/get_data.rb'
 
-describe Get_data do
+describe GetData do
   subject(:data) { described_class.new }
 
   it 'gets users data from the API' do

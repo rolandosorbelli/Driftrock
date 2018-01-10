@@ -1,6 +1,6 @@
 require 'httparty'
 
-class Get_data
+class GetData
   def get_users_data
     users = 'https://driftrock-dev-test-2.herokuapp.com/users?per_page=1000&page=1'
     response = HTTParty.get(users)
